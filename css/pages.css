@@ -1,0 +1,131 @@
+.left-col {
+    float: left;
+    width: 70%;
+}
+
+/* Right column */
+.right-col {
+    float: left;
+    width: 30%;
+    padding-left: 10px;
+}
+
+
+.left-col .rol {
+    text-align: center;
+}
+
+.left-col h2 {
+    color: #4a4a4a;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.left-col h2 i {
+    color: #56ccf2;
+}
+
+.left-col .rol-25 {
+    position: relative;
+    margin-top: 30px;
+    display: inline-table;
+    margin-right: 15px;
+    width: 183px;
+    height: 328.233px;
+    text-align: center;
+}
+
+.left-col .rol-25 img {
+    border: 1px solid #aaa7a7;
+    box-shadow: 0 0 5px #aaa7a7;
+    border-radius: 2%;
+    width: 183px;
+    height: 238px;
+    margin-bottom: 15px;
+}
+
+.left-col .rol-25 .top-notice {
+    border-radius: 6px;
+    line-height: 15px;
+    background-color: #56ccf2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    padding: 3px 6px 1px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.left-col .rol-25 a.name {
+    color: #373737;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.left-col .rol-25 a {
+    color: #2c2a2a;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #3b5998;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+.right-col .card h2 {
+    color: #ff2d57;
+    font-weight: 200;
+}
+
+.card .column-3 {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+
+.right-col .card .column-3 h3 {
+    position: absolute;
+    font-size: 1em;
+    top: 20px;
+    left: 90px;
+}
+
+.right-col .card .column-3 a {
+    text-decoration: none;
+    position: absolute;
+    top: 55px;
+    color: #7c7878;
+    left: 90px;
+}
+
+.right-col .card .column-3 img {
+    border: 1px solid #aaa7a7;
+    box-shadow: 0 0 5px #aaa7a7;
+    width: 25%;
+    height: 70%;
+}
