@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASM1 - Layout Web Truyện Tranh</title>
+    <link rel="stylesheet" href="../css/view.css" type="text/css">
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <script src="https://kit.fontawesome.com/e76714b9e4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v16.0"
+        nonce="qjiq71wt"></script>
+    <div class="container">
+        <div class="header">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Nhập tên truyện cần tìm">
+                </div>
+                <div class="nav-right-top">
+                    <ul>
+                        <li><a href="login.html">Đăng nhập</a></li>
+                        <li><a href="register.html">Đăng ký</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="navbar">
+                    <a href="../index.html">Trang chủ</a>
+                    <a href="#news">Theo dõi</a>
+                    <a href="history.html">Lịch sử</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Thể loại
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="row">
+                                <div class="column">
+                                    <a href="#"> Tất cả</a>
+                                    <a href="#"> Action</a>
+                                    <a href="#"> Adult</a>
+                                    <a href="#"> Adventure</a>
+                                    <a href="#"> Anime</a>
+                                    <a href="#"> Chuyển Sinh</a>
+                                    <a href="#"> Cổ Đại</a>
+                                    <a href="#"> Comedy</a>
+                                    <a href="#"> Comic</a>
+                                    <a href="#"> Cooking</a>
+                                    <a href="#"> Doujinshi</a>
+                                    <a href="#"> Drama</a>
+                                    <a href="#"> Đam Mỹ</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"> Ecchi</a>
+                                    <a href="#"> Fantasy</a>
+                                    <a href="#"> Gender Bender</a>
+                                    <a href="#"> Harem</a>
+                                    <a href="#"> Historical</a>
+                                    <a href="#"> Horror</a>
+                                    <a href="#"> Josei</a>
+                                    <a href="#"> Live Action</a>
+                                    <a href="#"> Manga</a>
+                                    <a href="#"> Manhua</a>
+                                    <a href="#"> Manhwa</a>
+                                    <a href="#"> Martial Arts</a>
+                                    <a href="#"> Mature</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"> Mecha</a>
+                                    <a href="#"> Mystery</a>
+                                    <a href="#"> Ngôn Tình</a>
+                                    <a href="#"> One Shot</a>
+                                    <a href="#"> Psychological</a>
+                                    <a href="#"> Romance</a>
+                                    <a href="#"> School Life</a>
+                                    <a href="#"> Sci-Fi</a>
+                                    <a href="#"> Seinen</a>
+                                    <a href="#"> Shoujo</a>
+                                    <a href="#"> Shoujo Ai</a>
+                                    <a href="#"> Shounen</a>
+                                    <a href="#"> Shounen AI</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"> Slice Of Life</a>
+                                    <a href="#"> Smut</a>
+                                    <a href="#"> Soft Yaoi</a>
+                                    <a href="#"> Soft Yuri</a>
+                                    <a href="#"> Sports</a>
+                                    <a href="#"> Supernatural</a>
+                                    <a href="#"> Tragedy</a>
+                                    <a href="#"> Trinh Thám</a>
+                                    <a href="#"> Truyện Màu</a>
+                                    <a href="#"> Webtoon</a>
+                                    <a href="#"> Xuyên Không</a>
+                                    <a href="#"> Yaoi</a>
+                                    <a href="#"> Yuri</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Xếp hạng
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="row">
+                                <div class="column">
+                                    <a href="#"> Top ALL</a>
+                                    <a href="#"> Truyện full</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"> Top tháng</a>
+                                    <a href="#"> Yêu thích</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"> Top tuần</a>
+                                    <a href="#"> Mới cập nhật</a>
+                                </div>
+                                <div class="column">
+                                    <a href="#"> Top ngày</a>
+                                    <a href="#"> Truyện mới</a>
+                                </div>
+                                <div style="clear: both;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="category.html">Tìm truyện</a>
+                    <a href="female.html">Con gái</a>
+                    <a href="male.html">Con trai</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="content">
+                    <div class="beardcrumb">
+                        <a href="../index.html">Trang Chủ </a><i class="fa-solid fa-angle-right"></i>
+                        <a href="#"> Thể loại </a><i class="fa-solid fa-angle-right"></i>
+                        <a href="#"> Nhà Có Năm Nàng Dâu</a>
+                    </div>
+                    <div class="img">
+                        <img src="../images/dai-vuong-tha-mang.jpg" style="width: 195px; height: 300px;" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Nhà Có Năm Nàng Dâu</h1>
+                        <p class="info-item"><i class="fa fa-user"></i><b> Tác giả:</b> Đang cập nhật</p>
+                        <p class="info-item"><i class="fa fa-rss"></i> <b>Tình trạng: </b> Đang cập nhật</p>
+                        <p class="info-item"> <i class="fa fa-tags"></i> <b>Thể loại:</b>
+                        <ul class="list-tag-story list-orange">
+                            <li><a href="#">Comedy</a></li>
+                            <li><a href="#">Harem</a></li>
+                            <li><a href="#">Romance</a></li>
+                            <li><a href="#">School Life</a></li>
+                        </ul>
+                        </p>
+                        <p class="info-item">
+                            <span><strong><i class="fa fa-clock-o"></i> Thống kê:</strong></span>
+                            <span class="sp01"><i class="fa fa-thumbs-up"></i><span
+                                    class="sp02 number-like">12122</span></span>
+                            <span class="sp01"><i class="fa fa-heart"></i><span class="sp02">46127</span></span>
+                            <span class="sp01"><i class="fa fa-eye"></i><span class="sp02">10810041</span></span>
+                        </p>
+                        <ul class="story-detail-menu">
+                            <li class="li01">
+                                <a class="button is-danger is-rounded" href="#"
+                                    title="Nhà Có Năm Nàng Dâu Chapter 0"><span class="btn-read"></span>Đọc từ
+                                    đầu</a>
+                            </li>
+                            <li class="li05"><a class="button is-danger is-rounded" href="#"
+                                    title="Nhà Có Năm Nàng Dâu Chapter 2021"><span class="btn-request"></span>Đọc
+                                    tập mới</a></li>
+                        </ul>
+                        <div class="story-detail-info"> Tên khác: The Five Wedded Brides; Go-Toubun no Hanayome Một
+                            bộ tình cảm rất hot nhe Một cậu học sinh nghèo rớt mồng tơi, gặp một cô nàng tiểu thư
+                            con nhà giàu, ấn tượng ban đầu méo tốt, thế nhưng trời xui đất khiến, anh main nhà ta
+                            phải làm gia sư cho cô nàng đó, à không, làm gia sư tận 5 cô lận, vì sao tới 5 cô ư? đón
+                            xem nhé! cô nào cũng đẹp như thú </div>
+                    </div>
+                    <div class="header-section text-orange"><span><i class="fa fa-list" aria-hidden="true"></i> Danh
+                            sách chương </span></div>
+                    <div class="boxlist">
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 17</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 16</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 15</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 14</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 13</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 12</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 11</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 10</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 9</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 8</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 7</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 6</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 5</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 4</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 3</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 2</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 1</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                        <div class="chapter-item list-row">
+                            <div class="col-md-10 col-sm-10 col-8 ">
+                                <a href="#" title="Nhà Có Năm Nàng Dâu Chapter 2021">Chapter 0</a>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-4 text-right"> 9 tháng trước </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-fb">
+            <div class="card-fb">
+                <h3>Bình luận Facebook</h5>
+                    <div class="fb-comments" data-href="http://127.0.0.1:5500/asm-gd1/pages/view.html" data-width="900"
+                        data-numposts="5"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="fcent">
+                <div class="footer-left">
+                    Copyright © 2023 - Thạch Thế Đăng. <br>
+                    <iframe
+                        src="https://www.google.com/maps/d/u/0/embed?mid=1A64gf-532QIGhraEyxVlFPAo2-lQoo8&ehbc=2E312F"
+                        width="400" height="200"></iframe>
+                </div>
+                <div class="footer-right">
+                    <h3>Từ Khoá</h3>
+                    <ul class="list-tag list-orange-r">
+                        <li><a href="#">Truyện tranh</a></li>
+                        <li><a href="#">Truyện tranh online</a></li>
+                        <li><a href="#">Đọc truyện tranh</a></li>
+                        <li><a href="#">Truyện ngôn tình</a></li>
+                        <li><a href="#">Truyện tranh hay</a></li>
+                        <li><a href="#">Manhwa</a></li>
+                        <li><a href="#">Manhua</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
