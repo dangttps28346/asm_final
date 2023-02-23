@@ -214,7 +214,9 @@ body {
     width: 100%;
     height: auto;
 }
-
+.column-2 img:hover{
+    box-shadow: 5px 5px 2px #aaa7a7;
+}
 .card .column-2 .top-notice {
     border-radius: 6px;
     line-height: 15px;
@@ -276,6 +278,9 @@ body {
     box-shadow: 0 0 5px #aaa7a7;
     width: 25%;
     height: 70%;
+}
+.column-3 img:hover{
+    box-shadow: 5px 5px 2px #aaa7a7;
 }
 
 /* Clear floats after the columns */
