@@ -1,0 +1,67 @@
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+.contact-form .contact-header{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contact-form .contact-header::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ee2c74;
+    margin-top: 5px;
+}
+
+.contact-form .contact-action {
+    text-align: right;
+}
+
+.contact-form .contact-action .contact-link {
+    padding-right: 10px;
+    display: inline-block;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #288ad6;
+    cursor: pointer;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+input[type=text],
+input[type=password],textarea {
+    width: 100%;
+    height: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact-form .contact-action input[type="submit"]{
+    font-size: medium;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background: #3b5998;
+    border-color: #3b5998;
+}
